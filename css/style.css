@@ -1,0 +1,1936 @@
+body {
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+/* Start Homepage styling */
+/* Start Navbar styling */
+.navbar-brand {
+  transition: 0.3s ease-in-out;
+  font-family: natural;
+  font-size: 45px;
+  color: #2c59a8 !important;
+  padding: 1px;
+}
+
+.navbar-back {
+  transition: 0.3s ease-in-out;
+  font-family: natural;
+  font-size: 27px;
+  color: #2c59a8 !important;
+  padding: 1px;
+  /* margin-left: -100px; */
+}
+
+.nav-link {
+  color: #2c59a8 !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  background-color: #2c59a8;
+}
+
+.navbar-light .nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+@media (max-width: 425px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+}
+
+/* End Navbar styling */
+
+/* Start Carousel styling */
+.carousel-item {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 425px) {
+  .carousel-item.bg1 {
+    background-position: left;
+  }
+  .carousel-item.bg2 {
+    background-position: left;
+  }
+  .carousel-item.bg3 {
+    background-position: right;
+  }
+}
+.carousel-caption h3 {
+  font-family: "Exo2-Regular";
+  font-weight: normal;
+  font-size: 30px;
+}
+@media (max-width: 425px) {
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 100%;
+}
+.carousel-caption {
+  top: 45%;
+}
+@media (max-width: 425px) {
+  .carousel-caption {
+    top: 35%;
+  }
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+/* End Carousel styling */
+
+/* Start 1st section styling */
+#section1 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 45px;
+  word-spacing: 0px;
+}
+@media (max-width: 425px) {
+  #section1 h2 {
+    font-size: 24px;
+  }
+}
+#section1 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section1 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End 1st section styling */
+
+/* Start 2nd section styling */
+.section2-caption h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  .section2-caption h2 {
+    font-size: 18px !important;
+  }
+}
+#section2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End 2nd section styling */
+
+/* Start 3rd section styling */
+.section3-caption h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  .section3-caption h2 {
+    font-size: 18px !important;
+  }
+}
+#section3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+@media (max-width: 425px) {
+  .section2-caption h2,
+  .section3-caption h2 {
+    font-size: 24px;
+  }
+}
+/* End 3rd section styling */
+
+/* Start Location description styling */
+/* Start Location1 styling */
+.loc-caption1 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc1 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc1 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location1 styling */
+
+/* Start Location2 styling */
+.loc-caption2 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location2 styling */
+
+/* Start Location3 styling */
+.loc-caption3 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location3 styling */
+/* End Location description styling */
+
+/* Start Bottom bar styling */
+.bottom-bar {
+  border-bottom: 1px solid #d2054d;
+}
+/* End Bottom bar styling */
+
+/* Start Location section styling */
+#location h4 {
+  font-family: "Fahkwang-Regular";
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 30px;
+  word-spacing: 0px;
+}
+#location p {
+  font-family: "FiraSansExtraCondensed-Regular" !important;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 27px;
+  word-spacing: 0px;
+}
+#location i {
+  font-size: 16px;
+}
+/* End Location section styling */
+
+/* Start Social media section styling */
+.soc-media-wrapper {
+  text-align: center;
+}
+
+.socmed-icon {
+  color: #2c59a8;
+}
+.icon-background {
+  color: #fff;
+}
+.socmed-icon:hover {
+  color: rgb(143, 179, 241);
+  transition: all 0.5s ease-in-out;
+}
+.icon-background:hover {
+  color: #2c59a8;
+}
+/* End Social media section styling */
+/* End Hompage styling */
+
+/* Start Aboutus page styling */
+#about1 {
+  margin-top: 100px;
+}
+#about1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#about1 span {
+  font-family: "Kanit-Regular";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 11px;
+  color: #d2054d;
+}
+#about2 {
+  margin-top: 50px;
+}
+#about3 {
+  margin-top: 20px;
+}
+#about3 .heading1pink {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#about3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#about3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End Aboutus page styling */
+
+/* Start Salon page styling */
+#salon-heading {
+  margin-top: 100px;
+}
+#salon-heading h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+.description h1 {
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 0px;
+}
+#lakeview-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #lakeview-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#lakeview-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.lakeview-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+#westtown-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #westtown-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#westtown-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.westtown-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+#andersonville-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #andersonville-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#andersonville-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.andersonville-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.6s, filter 0.6s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+.img-hover-zoom:hover img {
+  filter: brightness(100%);
+  transform: scale(1.25);
+}
+/* End Salon page styling */
+
+/* Start Lakeview page styling */
+#lakeview1 {
+  margin-top: 100px;
+}
+#lakeview1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+
+@media (max-width: 576px) {
+  #lakeview1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#lakeview1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#lakeview2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#lakeview2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#lakeview3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#lakeview2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Lakeview page styling */
+
+/* Start Westtown page styling */
+#westtown1 {
+  margin-top: 100px;
+}
+#westtown1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+@media (max-width: 576px) {
+  #westtown1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#westtown1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#westtown2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#westtown2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#westtown3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#westtown2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Westtown page styling */
+
+/* Start Andersonville page styling */
+#andersonville1 {
+  margin-top: 100px;
+}
+#andersonville1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #andersonville1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#andersonville1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#andersonville2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#andersonville2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#andersonville3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#andersonville2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Andersonville page styling */
+
+/* Start Services page styling */
+#services {
+  margin-top: 100px;
+}
+
+#services h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+.card-header .fa {
+  transition: 0.3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(180deg);
+}
+
+a {
+  text-decoration: none !important;
+}
+/* Haircuts Section style */
+#haircuts {
+  margin-top: 10px;
+}
+#haircuts p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#haircuts a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #haircuts a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #haircuts a {
+    font-size: 20px;
+  }
+}
+#haircut-table td {
+  padding: 5px 50px 5px 0px;
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#haircuts span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Colors section style */
+#colors {
+  margin-top: 10px;
+}
+#colors p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#colors a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #colors a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #colors a {
+    font-size: 20px;
+  }
+}
+#color-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#colors span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Styling section style */
+#styling {
+  margin-top: 10px;
+}
+#styling p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#styling a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #styling a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #styling a {
+    font-size: 20px;
+  }
+}
+#styling-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Keratin section style */
+#keratin {
+  margin-top: 10px;
+}
+#keratin p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#keratin a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #keratin a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #keratin a {
+    font-size: 20px;
+  }
+}
+#keratin-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#keratin span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Hair Spa section */
+#hairspa {
+  margin-top: 10px;
+}
+#hairspa p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairspa a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #hairspa a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #hairspa a {
+    font-size: 20px;
+  }
+}
+#hairspa-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairspa span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Hair Extension style */
+#hairextension {
+  margin-top: 10px;
+}
+#hairextension p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairextension a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #hairextension a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #hairextension a {
+    font-size: 20px;
+  }
+}
+#hairextension-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairextension span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Bridal section */
+#bridal {
+  margin-top: 10px;
+}
+#bridal p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#bridal a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #bridal a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #bridal a {
+    font-size: 20px;
+  }
+}
+#bridal-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#bridal span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Makeup section */
+#makeup {
+  margin-top: 10px;
+}
+#makeup p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#makeup a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #makeup a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #makeup a {
+    font-size: 20px;
+  }
+}
+#makeup-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#makeup span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Services page styling */
+
+/* Start Stylist page styling */
+#stylist {
+  margin-top: 100px;
+}
+#stylist h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#stylist p {
+  font-family: "KoHo-Regular";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+}
+#profile img {
+  width: 75%;
+}
+
+.social {
+  padding: 10px;
+}
+
+.social-item {
+  text-align: center;
+  width: 32px;
+}
+
+.social-center {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-item a {
+  font-size: 24px;
+}
+.card-body h5 {
+  font-family: "Fahkwang-Regular";
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+.card-body h6 {
+  font-family: "KoHo-Bold";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+.card-text {
+  font-family: "Mali-Light" !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+.img-hover img:hover {
+  transition: all 0.3s linear;
+  opacity: 0.5;
+}
+/* End Stylist page styling */
+
+/* Start Gallery page styling */
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.row .column img:hover {
+  transition: all 0.3s linear;
+  opacity: 0.5;
+}
+#gallery1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#gallery1 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #2c59a8;
+}
+#gallery1 span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #2c59a8;
+}
+/* End Gallery page styling */
+
+/* Start Careers page styling */
+#careers1 {
+  margin-top: 100px;
+}
+
+#careers1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#careers1 span {
+  font-family: "Kanit-Regular";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 11px;
+  color: #d2054d;
+}
+#careers2 {
+  margin-top: 50px;
+}
+#careers2 h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#careers2 {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#careers2 span:hover {
+  color: #d2054d;
+}
+/* End Careers page styling */
+
+/* Start Policies page styling */
+#policies {
+  margin-top: 100px;
+}
+#policies h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#policies2 {
+  margin-top: 50px;
+}
+#policies2 h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#policies2 {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Policies page styling */
+
+/* Start FAQ page styling */
+#faq {
+  margin-top: 100px;
+}
+#faq h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#faq-a {
+  margin-top: 50px;
+}
+#faq-a h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-a h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-a p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-b h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-b h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-b p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-c h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-c h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-c p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-d h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-d h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-d p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-e h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-e h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-e p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End FAQ page styling */
+
+/* kalo layar iped*/
+@media screen and (max-width: 800px) {
+  .text1 {
+    font-size: 40px !important;
+    color: #2c59a8 !important;
+    text-align: right;
+    padding-right: 80px !important ;
+    padding-top: 17%;
+    font-weight: bolder;
+  }
+  .text1set {
+    font-size: medium !important;
+    padding-left: 60%;
+  }
+}
+/* kalo layar 500px */
+@media screen and (max-width: 500px) {
+  /* body {
+      background-image: url("started_page_phone.png");
+      background-size: 100%;
+    }
+    .navbar{
+    font-family: Segoe UI;
+    color: #2C59A8 !important;
+            background: #ffff !important;
+    border: 1px solid #555;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #2C59A8 !important;
+  }
+  .navbar-brand{
+    padding-left: 30px;
+      font-family: natural;
+      font-size: 30px;
+  }
+  li:last-child{
+    border-bottom: 1px solid #555;
+  } */
+  .text1 {
+    font-size: 30px !important;
+    color: #2c59a8;
+    text-align: right;
+    padding-right: 20px !important ;
+    padding-top: 45%;
+    font-weight: bolder;
+  }
+  .text1set {
+    font-size: 13px !important;
+    font-weight: lighter;
+    padding-left: 55% !important;
+  }
+  .text2 {
+    font-size: medium;
+    padding-top: 200px;
+    font-weight: lighter;
+    text-decoration: underline;
+  }
+  .contWelcome {
+    position: relative;
+    top: -120px;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .welcJud {
+    text-align: center;
+  }
+  .img1 {
+    top: 45px;
+    margin-bottom: 40px;
+  }
+  .contTourplan {
+    position: relative;
+    top: -150px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .pkg1 {
+    left: 50% !important;
+  }
+  .pkg2 {
+    left: 50% !important;
+    top: 100% !important;
+  }
+  .imgspecial {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .abtext2 {
+    margin: 5% 5% !important;
+  }
+}
+
+/* .navbar{
+  font-family: Segoe UI;
+  color: #2C59A8;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  font-size: larger;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #2C59A8 !important;
+}
+.navbar-brand{
+    font-family: natural;
+    font-size: 35px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #fff !important; /*kalo di hover warna beruba
+    background-color: #2C59A8 !important;
+}  */
+.text1 {
+  position: relative;
+  font-size: 60px;
+  color: #2c59a8;
+  text-align: right;
+  padding-right: 13%;
+  top: -270px;
+  font-weight: bolder;
+}
+.text1set {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 50%;
+}
+.text2 {
+  font-size: medium;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+.contWelcome {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.welcome {
+  font-size: 60px;
+  color: #2c59a8;
+}
+.welcJud {
+  font-size: 50px;
+  color: #2c59a8;
+}
+.welcome2 {
+  text-align: justify;
+  font-size: 15px;
+  position: relative;
+}
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.rotate45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.contTourplan {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 15%;
+}
+.tPlan1 {
+  text-align: center;
+  color: #2c59a8;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.sadawboks {
+  border: 1px solid #888888;
+  /* padding: 10px; */
+  box-shadow: 5px 10px 18px #888888;
+}
+.topR {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+.topL {
+  float: left;
+  width: 10%;
+  height: auto;
+}
+.logoz {
+  position: relative;
+  top: 200px;
+  width: 35%;
+  height: auto;
+}
+.recPlus1 {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 20%;
+  padding-top: 10%;
+}
+.recPlus2 {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 20%;
+}
+.recPlus3 {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 90%;
+}
+.recPlusAbout {
+  position: absolute;
+  width: 13%;
+  height: auto;
+  padding-top: 40px;
+  left: 50%;
+}
+.rand1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  right: -90px;
+}
+.rand2 {
+  position: absolute;
+  width: 30%;
+  margin-top: 40px;
+  height: auto;
+  left: -140px;
+}
+.randAbout {
+  position: absolute;
+  width: 30%;
+  margin-top: 40px;
+  height: auto;
+  right: -10px;
+}
+.randAbout2 {
+  position: absolute;
+  width: 20%;
+  margin-top: 40px;
+  height: auto;
+  left: 80px;
+}
+.img1 {
+  position: relative;
+  width: 55%;
+  border-radius: 7px;
+  height: auto;
+  float: right;
+  margin-left: 4%;
+}
+.wave1 {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 10%;
+}
+.wave2 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  left: 40%;
+}
+.waveAbout {
+  position: relative;
+  width: 20%;
+  height: auto;
+  left: 10%;
+}
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.panel button:hover {
+  background-color: #fff !important;
+  color: #2c59a8 !important;
+}
+.panel-heading {
+  background-color: #2c59a8 !important;
+  color: #fff !important;
+}
+.panel-footer {
+  background-color: #2c59a8 !important;
+  color: #fff !important;
+}
+.pkg1 {
+  text-align: center;
+  position: relative;
+  right: -50%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.pkg2 {
+  text-align: center;
+  position: relative;
+  right: -60%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.headpac {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #2c59a8;
+  text-align: center;
+}
+.headpac2 {
+  text-align: center;
+  font-size: 15px;
+}
+.walkleft {
+  width: 27%;
+  height: auto;
+}
+.contAbout {
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.abtext {
+  font-size: 50px;
+  color: #2c59a8;
+  text-align: center;
+}
+.abtext2 {
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 17px;
+  text-align: justify;
+}
+.w3-button:hover {
+  background-color: #2c59a8 !important;
+  color: #fff !important;
+}
+.bgfooter {
+  position: relative;
+  bottom: -350px;
+  width: 100%;
+}
+.footext {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.txtfooter {
+  color: #2c59a8;
+  font-family: natural;
+  font-size: 54px;
+  padding-left: 20px;
+}
+.locfooter {
+  position: relative;
+  color: #2c59a8;
+  font-size: medium;
+  font-weight: bold;
+}
+.ftermailphone {
+  position: relative;
+  top: 230px;
+}
+.imgfooter {
+  width: 20px;
+  margin: 8px;
+}
+footer {
+  padding-top: 70px;
+  margin-top: 400px;
+  background-image: url("asset/bott.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn1 {
+  position: absolute;
+  top: 68%;
+  left: 135px;
+  background-color: #ffffff;
+  opacity: 0%;
+  color: black;
+  font-size: 12px;
+  padding: 15px 30px;
+  border-color: #7cb3f8;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn2 {
+  position: absolute;
+  top: 68%;
+  left: 135px;
+  background-color: #ffffff;
+  opacity: 0%;
+  color: black;
+  font-size: 12px;
+  padding: 15px 30px;
+  border-color: #7cb3f8;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+#btn1:hover {
+  background-color: black;
+  color: #c5dbf7;
+}
+#tourplan h1 {
+  color: #2c59a8;
+}
+#people {
+  text-align: right;
+  margin-top: -60px;
+}
+.endcopyright {
+  text-align: center;
+}
+
+@media (max-width: 740px) {
+  .col-sm-3 img {
+    width: 100%;
+  }
+
+  #aboutus h1 {
+    bottom: 380px;
+  }
+}
+
+@media (max-width: 736px) {
+  .col-sm-3 img {
+    width: 100%;
+  }
+
+  #aboutus h1 {
+    bottom: 410px;
+  }
+
+  #logo {
+    left: 75px;
+    width: 60%;
+  }
+
+  .welcJud{ 
+    margin-top: 0px !important;
+    text-align: center;
+  }
+
+  #people{
+    height: 0px;
+  }
+}
+
+@media (max-width: 812px) {
+  .col-sm-3 img {
+    width: 100%;
+  }
+
+  .welcome{
+    text-align: center;
+  }
+
+  .welcJud{
+    margin-top: 200px;
+    text-align: center;
+  }
+  #people{
+    visibility: hidden;
+    height: 0px;
+  }
+  #plan1 {
+    max-width: 50% !important;
+    flex: unset !important;
+  }
+  #plan2 {
+    max-width: 50% !important;
+    flex: unset !important;
+  }
+
+  #aboutus h1 {
+    bottom: 380px;
+  }
+
+  .footext .txtfooter{
+    font-size: 20px;
+  }
+}
+.contgallery {
+  position: relative;
+  padding-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

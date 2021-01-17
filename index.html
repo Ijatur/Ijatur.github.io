@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JalanKuy</title>
+    <!-- W3-css -->
+    <link rel="stylesheet" type="text/css" href="w3.css" />
+    <!-- Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
+    <!-- Fontawesome 5 CSS -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="vendor/animate-css/animate.css" />
+    <!-- Lightbox CSS -->
+    <link
+      rel="stylesheet"
+      href="vendor/lightbox2-2.11.1/dist/css/lightbox.min.css"
+    />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="vendor/aos-master/dist/aos.css" />
+    <!-- Bootstrap 4 Betternav CSS -->
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-better-nav-master/dist/bootstrap-better-nav.min.css"
+    />
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="css/font.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* 2560px style */
+      @media (max-width: 2560px) {
+        .bg-light {
+          transition: 0.3s ease-in-out;
+          background: transparent !important;
+          padding: 16px 211px 16px 211px;
+        }
+
+        .navbar.bg-light.scrolled {
+          background: white !important;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+          padding: 8px 235px 8px 235px;
+        }
+
+        .navbar-brand.scrolledbrand {
+          font-size: 30px !important;
+        }
+      }
+
+      /* 1440px style */
+      @media (max-width: 1440px) {
+        .bg-light {
+          transition: 0.3s ease-in-out;
+          background: transparent !important;
+          padding: 16px 141px 16px 141px;
+        }
+
+        .navbar.bg-light.scrolled {
+          background: white !important;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+          padding: 8px 165px 8px 165px;
+        }
+
+        .navbar-brand.scrolledbrand {
+          font-size: 30px !important;
+        }
+      }
+
+      /* 1024px style */
+      @media (max-width: 1024px) {
+        .bg-light {
+          transition: 0.3s ease-in-out;
+          background: transparent !important;
+          padding: 16px 16px 16px 16px;
+        }
+
+        .navbar.bg-light.scrolled {
+          background: white !important;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+          padding: 8px 40px 8px 40px;
+        }
+      }
+
+      /* 768px style */
+      @media (max-width: 767px) {
+        .bg-light {
+          background: white !important;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+          padding: 8px 16px 8px 16px !important;
+        }
+
+        .navbar-brand {
+          font-size: 20px !important;
+        }
+
+        #people img {
+          display: none;
+        }
+        
+        #plan1{
+          max-width: 100% !important;
+          flex: unset !important;
+        }
+        #plan2{
+          max-width: 100% !important;
+          flex: unset !important;
+        }
+
+        .text1 {
+          text-align: center;
+          left: 10px;
+          margin-top: -330px;
+          font-size: 28px !important;
+          padding-bottom: 230px;
+        }
+
+        .text1set {
+          display: none;
+        }
+
+        .logoz {
+          width: 80%;
+          padding-bottom: 200px;
+        }
+
+        .welcome {
+          font-size: 44px;
+        }
+
+        .welcJud {
+          font-size: 44px;
+        }
+      }
+
+      @media (max-width: 736px) {
+        .text1 {
+          margin-top: -390px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .text1 {
+          margin-top: -360px;
+          margin-bottom: 50px;
+        }
+        .btn1{
+          position: absolute;
+          left: 31% !important;
+          top: 67% !important;
+          padding: 7px 10px !important;
+        }
+      }
+
+      footer {
+        padding-top: 70px;
+        margin-top: 400px;
+        background-image: url("asset/bott.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .btn1 {
+        position: absolute;
+        top: 53%;
+        left: 135px;
+        background-color: #ffffff;
+        opacity: 0%;
+        color: black;
+        font-size: 12px;
+        padding: 15px 30px;
+        border-color: #7cb3f8;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .btn2 {
+        position: absolute;
+        top: 53%;
+        left: 135px;
+        background-color: #ffffff;
+        opacity: 0%;
+        color: black;
+        font-size: 12px;
+        padding: 15px 30px;
+        border-color: #7cb3f8;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .col-sm-2 img {
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Start Home page section -->
+    <div id="home">
+      <!-- Start Navigation section -->
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-light fixed-top better-bootstrap-nav-left animated fadeInDown"
+      >
+        <a class="navbar-brand" href="index.html">JalanKuy</a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tourplan">Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Navigation section -->
+
+      <!-- Start Content section -->
+      <img class="topR" src="asset/topR.svg" />
+      <img class="topL" src="asset/topL.svg" />
+      <img class="logoz" src="asset/logo.svg" />
+      <div class="text1">
+        Let's Make Your<br />Best Trip<br />Ever
+        <div class="text1set">
+          <br />We will try to make your trip feels more exciting than ever you
+          have before
+        </div>
+        <img class="rotate90 recPlus1" src="asset/rectDot.svg" />
+      </div>
+      <img class="rand1" src="asset/rand1.svg" />
+      <br />
+      <div class="contWelcome">
+        <div class="welcome">
+          Welcome to <span style="font-family: natural;">JalanKuy</span>
+        </div>
+        <div><img class="img1" src="asset/IMG_20191125_080043.jpg" /></div>
+        <div class="welcome2">
+          <br /><br />
+          Welcome to JalanKuy tour and travel, enjoy your tour and vacation with us at Bromo Mountains.
+          We are here to provide you a package tour to ensure your holiday is enjoyable and remarkable.
+        </div>
+        <div class="welcJud">
+          <br />
+          Why Choose <span style="font-family: natural;">JalanKuy</span> ?
+        </div>
+        <img class="recPlus2" src="asset/rectDot.svg" />
+        <div class="welcome2">
+          <br /><br />
+          JalanKuy is the best place to reserve holiday package spend your vacation time with your friends, 
+          spouse or your family in Mount Bromo. We have received many orders here and many enjoy and feel happy 
+          with the packages we have provided.
+        </div>
+      </div>
+      <img class="rotate45 rand2" src="asset/rand1.svg" />
+
+      <!-- start plan section -->
+      <div id="tourplan" class="contTourplan">
+        <img class="rotate90 recPlus3" src="asset/rectDot.svg" />
+        <img class="wave1" src="asset/wave1.svg" />
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <div class="text-center">
+              <h1>
+                <span style="font-size: 44px;">Choose Your Best Plan</span>
+              </h1>
+              <p>
+                Choose your plan that suit for your best trip ever
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-sm-3" id="plan1">
+                <img src="asset/basic_package.svg" alt="package" />
+                <a href="package.html">
+                  <button class="btn1">
+                    More Information
+                  </button>
+                </a>
+              </div>
+              <div class="col-sm-3" id="plan2">
+                <img src="asset/regular_package.svg" alt="package" />
+                <a href="regular_package.html">
+                  <button class="btn1">
+                    More Information
+                  </button>
+                </a>
+              </div>
+              <div class="col-sm-6" id="people">
+                <img
+                  class="imgspecial"
+                  src="asset/walkLeft.svg"
+                  alt="tour_people"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end plan section -->
+
+      <!-- start about us section -->
+      <div class="contAbout" id="about">
+        <div class="abtext">About Us</div>
+        <img class="imgspecial" src="asset/aboutus.svg" alt="aboutus" />
+        <img class="waveAbout rotate45" src="asset/wave1.svg" />
+        <img class="randAbout rotate45" src="asset/rand1.svg" />
+        <div class="abtext2">
+           JalanKuy established in 2016, initially we just went to spend time on Mount Bromo,and really enjoy it, 
+           until an idea is emerged to make JalanKuy tour. At first we only offered the tour just for our 
+           close friends and it's getting big and bigger until now we can also invite you to enjoy the best vacation ever.
+        </div>
+        <img class="recPlusAbout rotate90" src="asset/rectDot.svg" />
+        <img class="randAbout2 rotate90" src="asset/rand1.svg" />
+      </div>
+      <!-- end about us section -->
+
+      <!-- start footer section -->
+      <footer>
+        <div class="footext row container-fluid">
+          <div class="col-sm-2">
+            <img style="width: 90%;" src="asset/jalankuy.svg" alt="logo" />
+          </div>
+          <div class="col-sm-4">
+            <span class="locfooter">Location</span>
+            <p>
+              Jalan Terusan Wijaya Kusuma Atas No.11, Lowokwaru, Malang (65141),East Java, Indonesia
+            </p>
+          </div>
+          <div class="col-sm-3">
+            <span class="locfooter">E-mail</span>
+            <p style="margin: 3px 3px;">jalankuy@gmail.com</p>
+            <br />
+            <span class="locfooter">Phone</span>
+            <p style="margin: 3px 3px;">9348793098</p>
+          </div>
+          <div class="col-sm-3" style="text-align: center;">
+            <div style="text-align: center;">
+              <a
+                href="https://www.instagram.com/Jalankuy.id?igshid=clunz8gfrq26/"
+                style="text-decoration: none;"
+              >
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-instagram fa-stack-1x socmed-icon"></i>
+                </span>
+              </a>
+              <a href="https://www.youtube.com/" style="text-decoration: none;">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-youtube fa-stack-1x socmed-icon"></i>
+                </span>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                style="text-decoration: none;"
+              >
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                  <i class="fab fa-facebook fa-stack-1x socmed-icon"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="endcopyright">
+          <br />
+          &copy;Copyright 2020
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- end footer section -->
+
+      <!-- End Homepage content section -->
+    </div>
+
+    <!-- End Home page section -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+    <!-- Angular js -->
+    <script src="vendor/angular.min.js"></script>
+    <!-- jQuery Mobile js -->
+    <script src="vendor/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+    <!-- Bootstrap 4 js -->
+    <script src="vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <!-- Lightbox js -->
+    <script src="vendor/lightbox2-2.11.1/dist/js/lightbox.js"></script>
+    <!-- AOS js -->
+    <script src="vendor/aos-master/dist/aos.js"></script>
+    <!-- Bootstrap 4 Betternav js -->
+    <script src="vendor/bootstrap-better-nav-master/dist/bootstrap-better-nav.min.js"></script>
+    <!-- Own Script js -->
+    <script src="js/ownscript.js"></script>
+    <script>
+      // Navbar change color on scroll setting
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 65);
+      });
+      // Navbar brand resize font on scroll setting
+      $(window).scroll(function () {
+        $(".navbar-brand").toggleClass(
+          "scrolledbrand",
+          $(this).scrollTop() > 65
+        );
+      });
+      // Swipe carousel for mobile devices
+      //================================================
+      // $(document).ready(function () {
+      //     $("#main-carousel").swiperight(function () {
+      //         $("#main-carousel").carousel("prev");    ==>buat carousel
+      //     });
+      //     $("#main-carousel").swipeleft(function () {
+      //         $("#main-carousel").carousel("next");
+      //     });
+      // });
+
+      // angular => baca form dan validasi => keluarin pesan
+      var sa_Validation = angular.module("sa_Validation", []);
+      sa_Validation.controller("controller", function ($scope) {
+        $scope.submitForm = function (isValid) {
+          if (isValid) {
+            alert("Thank you for subscribing");
+          }
+        };
+      });
+    </script>
+  </body>
+</html>
